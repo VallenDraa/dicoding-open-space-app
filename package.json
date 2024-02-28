@@ -10,7 +10,7 @@
     "test": "vitest",
     "e2e": "cypress run",
     "e2e:open": "cypress open",
-    "ci:test": "vitest --no-watch && start-server-and-test 'pnpm dev' http://0.0.0.0:5173 'pnpm e2e'"
+    "ci:test": "vitest --no-watch && start-server-and-test 'pnpm dev' http://localhost:5173 'pnpm e2e'"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.1",
